@@ -4,10 +4,15 @@
 
 main()
 {
+
+	printf("\n");
+	printf("####################################\n");
+	printf("Fahrenheit-Celsius Temperature Table\n");
+	printf("####################################\n");
+	printf("\n");
+
 	float fahr, celsius;
 	int lower, upper, step;
-
-	
 
 	lower = 0; 
 	upper = 300;
