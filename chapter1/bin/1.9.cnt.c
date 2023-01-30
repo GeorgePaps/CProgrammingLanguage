@@ -17,14 +17,15 @@ main()
             if ( c != ' ')
             {
                 putchar(c);
+                prevBlank = 0;
             }
             }
-        if (prevBlank == 0)
+        else 
         {
             putchar(c);
             if (c == ' ')
             {
-                prevBlank == 1;
+                prevBlank = 1;
             }
         }
     }
