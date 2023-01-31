@@ -1,8 +1,7 @@
 
 #include <stdio.h>
 
-/* A program that copies its input to its output
-and replace each string of one or more blanks with a single blank*/
+/* A program that replaces tab with \t*/
 
 main()
 {
@@ -17,18 +16,24 @@ main()
         {
             cnt_blanks++; 
         }
-        else{
+        else
+        {
             if (cnt_blanks == 0){
                 putchar(c);
             }else if (cnt_blanks == 1){
                 putchar(' ');
                 putchar(c);
             }
+            else if (cnt_blanks == 2){
+                putchar(' ');
+                putchar(' ');
+                putchar(c);
+            }
             cnt_blanks=0;
-        }
+            }
         if (cnt_blanks == 3){
             putchar('\\');
             cnt_blanks=0;
         }
+        }
     }
-}
