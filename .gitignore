@@ -1,3 +1,4 @@
 *.exe
 log.txt
 .vscode
+*.code-workspace
