@@ -4,7 +4,7 @@
 /* A program that copies its input to its output
 and replace each string of one or more blanks with a single blank*/
 
-main()
+int main()
 {
     int prevBlank;
     int c;

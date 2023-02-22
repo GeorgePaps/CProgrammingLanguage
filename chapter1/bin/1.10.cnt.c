@@ -3,7 +3,7 @@
 
 /* A program that replaces tab with \t*/
 
-main()
+int main()
 {
     int prevBlank;
     int c, cnt_blanks;

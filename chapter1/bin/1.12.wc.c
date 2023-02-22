@@ -6,12 +6,12 @@
 
 /*a program that prints its input one word per line*/
 
-main()
+int main()
 {
 	int c, state;
 
 	state = OUT;
-	while ((c = getchar()) != EOF) {
+while ((c = getchar()) != EOF) {
 		if (c == ' ' || c == '\n' || c == '\t')
 			{
             state = OUT;

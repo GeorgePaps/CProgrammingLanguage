@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /* A program that counts blanks, line breaks and tabs*/
-main()
+int main()
 {
     float c, countBlanks, countLines, countTabs;
     countBlanks = 0;
